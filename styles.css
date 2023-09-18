@@ -1,0 +1,56 @@
+/* Reset some basic elements */
+html, body, h1, h2, h3, p, ul, ol, li, form, input, button {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Remove list styles */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Set a border-box layout model */
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  /* Reset anchor element styles */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Reset image element styles */
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+  }
+  
+  /* Set body background and text color */
+  body {
+    background-color: #ffffff;
+    color: #333333;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Your existing styles below */
+  
+
+#gameCanvas {
+    border: 3px solid #776e6e;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    margin: 30px 60px;
+}
+
+.game-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
